@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pujitha Challagulla — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    body {
+      margin: 0;
+      font-family: Calibri, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #007BFF;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #007BFF;
+    }
+    h3 {
+      color: #FF0000; /* Company names in red */
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project-card, .info-card {
+      background: #f9f9f9;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+      background: #f5f5f5;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Pujitha Challagulla</h1>
+    <p style="text-align:center; color: #555;">Full Stack Developer | 5+ Years Experience</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="info-card">
+      Full Stack Developer with 5+ years of experience in Java, J2EE, Spring Boot, Hibernate, and modern JavaScript frameworks. Proficient in building single-page applications, scalable backend systems, and delivering high-quality software in Agile environments.
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="info-card">Languages: Java, JavaScript (ES6+), TypeScript, Python, C#, Ruby, Golang</div>
+    <div class="info-card">Frameworks: Spring Boot, Hibernate, Angular, React, React Native, Redux</div>
+    <div class="info-card">Databases: Oracle, MySQL, PostgreSQL, MongoDB, Cassandra, Redis</div>
+    <div class="info-card">Cloud/DevOps: AWS, Azure, GCP, Docker, Kubernetes, Jenkins</div>
+    <div class="info-card">Testing: Selenium, Cypress, JUnit, TestNG</div>
+    <div class="info-card">Tools: Git, Maven, Jira, Figma, Tableau</div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="info-card">
+      <ul>
+        <li>University of North Texas | Denton, Texas | Jan 2022–May 2023 — Master of Science in Computer Science (GPA: 3.85/4.00)</li>
+        <li>Gudlavalleru Engineering College | India | July 2015–April 2019 — Bachelor of Technology in Computer Science (GPA: 3.52/4.00)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="info-card">
+      <h3>Virta Health — SDE (July 2023 – Present)</h3>
+      <ul>
+        <li>Built modular frontend applications using ReactJS, Redux, Webpack module federation, and TypeScript.</li>
+        <li>Refactored legacy Java code, improving performance and reducing redundancy by 40%.</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h3>Truist — Senior Software Engineer (June 2023 – March 2024)</h3>
+      <ul>
+        <li>Designed REST APIs and automated deployment pipelines using Jenkins.</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h3>Tata Consultancy Services (CITI) — Senior Software Engineer (June 2023 – March 2024)</h3>
+      <ul>
+        <li>Integrated Spring Batch with Apache Kafka for real-time data processing.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <strong>Warehouse Management System</strong> — Designed database schema and optimized queries.
+    </div>
+    <div class="project-card">
+      <strong>Housing Management System</strong> — Web app with Java, Spring Boot, HTML, CSS.
+    </div>
+    <div class="project-card">
+      <strong>NYC Street Tree Census Report</strong> — Dashboard in Tableau showing tree species health.
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="info-card">
+      Prompt Design in Vertex AI — Certified Scrum Master — Web Design Specialist Certification
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="info-card">
+      Email: <a href="mailto:puj7373@gmail.com">puj7373@gmail.com</a><br>
+      Phone: +1-940-758-2905<br>
+      LinkedIn: <a href="https://www.linkedin.com/in/challagulla-pujitha-4b217a378/">Profile</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Pujitha Challagulla — All rights reserved.
+  </footer>
+</body>
+</html>
