@@ -142,15 +142,16 @@ quality solutions across distributed teams.</p>
     <section id="Education">
       <h2 class="section-title">Education</h2>
       <div class="skills-grid">
-        <div class="card">University of North Texas | Denton, Texas
-Master of Science in Computer Science (GPA: 3.85/4.00)
-Courses: Data Mining & Analysis, Software Engineering, Wireless Networks, Data Visualization,
-Computer Security.
-Graduate Teaching Assistantship: Data Visualization (Fall 2022 & Spring 2023)
-Gudlavalleru Engineering College | India
-Bachelor of Technology in Computer Science (GPA: 3.52/4.00)
-Courses: Data Structures, Cloud Computing, Compiler Design, Software Engineering, C, C++, OOP,
-Advanced data structure.</div>
+        <div class="card">
+        <ul><li>University of North Texas | Denton, Texas| Jan 2022-May 2023</li>
+<li>Master of Science in Computer Science (GPA: 3.85/4.00)</li>
+<li>Courses: Data Mining & Analysis, Software Engineering, Wireless Networks, Data Visualization,
+Computer Security.</li>
+<li>Graduate Teaching Assistantship: Data Visualization (Fall 2022 & Spring 2023)</li>
+<li>Gudlavalleru Engineering College | India |July 2015-April 2019</li>
+<li>Bachelor of Technology in Computer Science (GPA: 3.52/4.00)</li>
+<li>Courses: Data Structures, Cloud Computing, Compiler Design, Software Engineering, C, C++, OOP,
+Advanced data structure.</li></ul></div>
         
       </div>
     </section>
