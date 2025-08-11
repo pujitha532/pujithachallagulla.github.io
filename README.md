@@ -145,7 +145,8 @@ quality solutions across distributed teams.</p>
         <div class="card">University of North Texas | Denton, Texas
 Master of Science in Computer Science (GPA: 3.85/4.00)
 Courses: Data Mining & Analysis, Software Engineering, Wireless Networks, Data Visualization,
-Computer Security. Graduate Teaching Assistantship: Data Visualization (Fall 2022 & Spring 2023)
+Computer Security.
+Graduate Teaching Assistantship: Data Visualization (Fall 2022 & Spring 2023)
 Gudlavalleru Engineering College | India
 Bachelor of Technology in Computer Science (GPA: 3.52/4.00)
 Courses: Data Structures, Cloud Computing, Compiler Design, Software Engineering, C, C++, OOP,
